@@ -73,7 +73,7 @@
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": "mongodb+srv://SOME1HING:some1hing123@some1hing-db.hfyyfjfh.mongodb.net/?retryWrites=true&w=majorityPYTHONPATH=/app"
+         "value": "mongodb+srv://Kishan:Kishan855@cluster0.mwjuvde.mongodb.net/?retryWrites=true&w=majority"
       },
       "LOG_CHANNEL": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -97,12 +97,12 @@
       },
       "DATABASE_URL": {
         "description": "Put sql based database link. Recommended to use Elephant SQL.",
-        "value": "postgres://dsnjbjab:saifhsudfasfihaif@sdsfs.db.elephantsql.com/dsnjbjab",
+        "value": "postgres://lewsmvts:Q93kFuVdiq5CszpGJn_QmVKndwJIPaWQ@ruby.db.elephantsql.com/lewsmvts",
         "required": true
       },
       "FUNC_DB_URL": {
          "description": "Put sql based database link. Recommended to use Elephant SQL. MUST BE DIFFERENT THAN DATABSE_URL",
-         "value": "postgres://dsnjbjab:saifhsudfasfihaif@sdsfs.db.elephantsql.com/dsnjbjab",
+         "value": "postgres://lewsmvts:Q93kFuVdiq5CszpGJn_QmVKndwJIPaWQ@ruby.db.elephantsql.com/lewsmvts",
          "required": true
        },
       "DEV_USERS": {
@@ -165,7 +165,7 @@
       "REDIS_URL": {
          "description": "Paste your redis url in format redis://<username of admin role>:<password of admin role>@<endoint url>/<database name>",
          "required": true,
-         "value": "redis://SOME1HING:some1hing123@redis-11054.c9.us-east-1-4.ec2.cloud.redislabs.com:11054/shikimori-db"
+         "value": "redis://kishan:Kishan@855@redis-10570.c13.us-east-1-3.ec2.cloud.redislabs.com:10570"
       },  
       "ANIME_NAME": {
          "description": "If your bot is based on some anime, type the name of anime. Otherwise, manually edit PM_START_TEXT in main.py",
